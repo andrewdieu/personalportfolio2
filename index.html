@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <!--=============== REMIX ICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Andrew Dieu | Portfolio</title>
+</head>
+
+<body>
+    <!--=============== HEADER PROFILE ===============-->
+    <header class="profile container">
+        <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+        <div class="profile__container grid">
+            <div class="profile__data">
+                <div class="profile__border">
+                    <div class="profile__perfil">
+                        <img src="assets/img/bot.png" alt="">
+                    </div>
+                </div>
+
+                <h2 class="profile__name">Andrew Dieu</h2>
+                <h3 class="profile__profession">Software Engineer</h3>
+
+                <ul class="profile__social">
+                    <a href="https://www.linkedin.com/in/andrewdieu/" target="_blank" class="profile__social-link">
+                        <i class="ri-linkedin-box-fill"></i>
+                    </a>
+                    <a href="https://github.com/andrewdieu" target="_blank" class="profile__social-link">
+                        <i class="ri-github-fill"></i>
+                    </a>
+                </ul>
+            </div>
+
+
+            <div class="profile__info grid">
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">6</h3>
+                    <p class="profile__info-description">
+                        Projects
+                    </p>
+                </div>
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">3.93</h3>
+                    <p class="profile__info-description">
+                        GPA
+                    </p>
+                </div>
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">Junior</h3>
+                    <p class="profile__info-description">
+                        Class
+                    </p>
+                </div>
+            </div>
+
+            <div class="profile__buttons">
+                <a download="" href="assets/pdf/Andrew Dieu - Resume.pdf" class="button">
+                    Resume <i class="ri-download-line"></i>
+                </a>
+
+                <div class="profile__buttons-small">
+                    <a href="mailto:andrewdieu2011@gmail.com" target="_blank" class="button button__small button__gray">
+                        <i class="ri-mail-line"></i>
+                    </a>
+                <!--    <a href="" target="_blank" class="button button__small button__gray">
+                        <i class="ri-messenger-line"></i>
+                    </a> -->
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <section class="filters container">
+            <!--=============== ABOUT ME ===============-->
+            <div class="about">
+                <h3 class="about__title">Howdy! 🤠</h3>
+                <p class="about__content">
+                    I'm Andrew, a Junior attending the University of Houston.
+                    Along with my caffiene addicition, I love coding in my free time! I am currently majoring in Computer Science, along with a minor in Math and Business Administration.
+                     <br> <br>
+                    I am aware that my journey to become a software engineer will be challenging, but I am confident that I can propel myself to the top of the leagues and overcome any obstacles I may face. I am a resilient and innovative leader, while also being an attentive, determined associate.
+                    <br> <br>
+                    The website that you are currently on is one of the few projects that I have created from scratch!
+                    Here, you can scroll through a showcase of my projects and skills. Furthermore, you can find my socials and connect with me via the GitHub, LinkedIn, or email buttons. Enjoy! 🎉
+                </p>
+            </div>
+            <!--=============== FILTERS TABS ===============-->
+            <ul class="filters__content">
+                <button class="filters__button filter-tab-active" data-target="#projects">
+                    Projects
+                </button>
+
+                <button class="filters__button" data-target="#skills">
+                    Skills
+                </button>
+            </ul>
+
+            <div class="filters__sections">
+                <!--=============== PROJECTS ===============-->
+                <div class="projects__content grid filters__active" data-content id="projects">
+                    <article class="projects__card">
+                        <img src="assets/img/frame7.png" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Game (Full-Stack)</span>
+                                <h3 class="projects__title">Music Memory Game</h3>
+                                <a href="https://musicmemorygame.glitch.me/" class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                                <a href="https://github.com/andrewdieu/musicmemorygame" class="projects__button button button__small">
+                                    <i class="ri-github-line"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="assets/img/frame6.png" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">5/3/1 Calculator (Full-Stack)</span>
+                                <h3 class="projects__title">Gym Program Generator</h3>
+                                <a href="https://gymcalculator.netlify.app/" class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                                <a href="https://github.com/andrewdieu/gymcalculator" class="projects__button button button__small">
+                                    <i class="ri-github-line"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="assets/img/frame10.png" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Website (Full-Stack)</span>
+                                <h3 class="projects__title">Personal Portfolio</h3>
+                                <a href="#" class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                                <a href="#" class="projects__button button button__small">
+                                    <i class="ri-github-line"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="assets/img/frame14.png" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Calculator (Full-Stack)</span>
+                                <h3 class="projects__title">Calculator</h3>
+                                <a href="https://orangecalculator.netlify.app/" class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                                <a href="https://github.com/andrewdieu/calculator" class="projects__button button button__small">
+                                    <i class="ri-github-line"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="assets/img/frame15.png" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Website, Animations, and Design <br> (Front-End)</span>
+                                <h3 class="projects__title">Product Launch Website</h3>
+                                <a href="https://anisite.netlify.app/" class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                                <a href="https://github.com/andrewdieu/webdesign" class="projects__button button button__small">
+                                    <i class="ri-github-line"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="assets/img/frame17.png" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Discord Bot (Back-End)</span>
+                                <h3 class="projects__title">Kube Application</h3>
+                                <a href="https://github.com/andrewdieu/kubediscordapp" class="projects__button button button__small">
+                                    <i class="ri-github-line"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+
+                    
+                </div>
+                
+
+                <!--=============== SKILLS ===============-->
+                <div class="skills__content grid" data-content id="skills">
+                    <div class="skills__area">
+                        <h3 class="skills__title">
+                            Languages
+                        </h3>
+
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Python</h3>
+                                        <span class="skills__level"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">C++</h3>
+                                        <span class="skills__level"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">JavaScript</h3>
+                                        <span class="skills__level"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">R</h3>
+                                        <span class="skills__level"></span>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">HTML</h3>
+                                        <span class="skills__level"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">CSS</h3>
+                                        <span class="skills__level"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">TypeScript</h3>
+                                        <span class="skills__level"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">MATLAB</h3>
+                                        <span class="skills__level"></span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills__area">
+                        <h3 class="skills__title">
+                            Frameworks/Tools
+                        </h3>
+
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">React.js</h3>
+                                        <span class="skills__level"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">NPM</h3>
+                                        <span class="skills__level"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Yarn</h3>
+                                        <span class="skills__level"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">VS Code</h3>
+                                        <span class="skills__level"></span>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Node.js</h3>
+                                        <span class="skills__level"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">TailwindCSS</h3>
+                                        <span class="skills__level"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Glitch</h3>
+                                        <span class="skills__level"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Netlify</h3>
+                                        <span class="skills__level"></span>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer container">
+        <span class="footer__copy">
+            &#169; Created by Andrew Dieu 💖
+        </span>
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
